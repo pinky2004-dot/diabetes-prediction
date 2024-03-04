@@ -12,7 +12,7 @@ import streamlit as st ## run web app
 ## loading the saved model
 ## .load() --> Loads the model
 ## 'rb' --> binary data
-loaded_model = pickle.load(open('C:\Sai_Donepudi/MachineLearning/Diabetes/trained_model.sav', 'rb'))
+loaded_model = pickle.load(open('trained_model.sav', 'rb')) ##C:\Sai_Donepudi/MachineLearning/Diabetes/
 
 ## creating a function for prediction
 def diabetes_prediction(input_data):
